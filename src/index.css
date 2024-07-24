@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.main_page{
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  gap: 100px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBar{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBar .list{
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+  gap: 40px;
+}
+
+.navBar li{
+  list-style: none;
+}
+
+.navBar a{
+  text-decoration: none;
+  color: white;
+}
+
+.navBar a:hover{
+  color: lightskyblue;
+
+}
+.navBar .logo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: lightskyblue;
+}
+
+.main_page img{
+width:500px;
+height: 500px;
+}
+
+.productCard1,.productCard2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  border: 2px solid lightskyblue;
+  padding: 50px;
+}
+
+.productCard1 h1,.productCard2 h1{
+  font-size: 50px;
+}
+
+.productCard1 h3,.productCard2 h3{
+font-weight: bold;
+font-size: 25px;
+}
+
+.readMore{
+  padding:10px;
+  border-radius: 10px;
+  background-color: lightskyblue;
+  border: none;
+  cursor: pointer;
+}
+
+.footer{
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.Calculator .screen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: wheat;
+}
+
+.Calculator .screen h1{
+  background-color: navy;
+  border: 3px solid white;
+padding: 10px 80px;
+border-radius: 10px;
+}
+
+.btns{
+  padding: 30px;
+  display: grid;
+  column-gap: 5px;
+  row-gap: 5px;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3,20%);
+}
+
+.btns button{
+  padding: 5px;
+  background-color: navy;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: wheat;
+}
